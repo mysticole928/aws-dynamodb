@@ -108,6 +108,8 @@ Either of these methods work:
  ```
     
  All of the GSI info must be on its own line.  (Indents are fine.)
+ 
+ Also, the attribute in the GSI's key schema must be declared in the table's attributes.  It is not created automatically.
     
  
     
