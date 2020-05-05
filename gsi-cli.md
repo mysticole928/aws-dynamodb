@@ -31,7 +31,7 @@ This is the part that fixed it:
 -global-secondary-indexes 'IndexName=song_title,KeySchema=[{AttributeName=title,KeyType=HASH}],Projection={ProjectionType=KEYS_ONLY}'
 ```
 
-One of the AWS documentation pages has this as an exampe:
+One of the AWS documentation pages has this as an example:
 
 ```bash
 aws dynamodb update-table \
@@ -88,7 +88,7 @@ I have no idea what is supposed to be.  I got documentation fatigue trying to fi
     
 ## My Aha! moment
    
-On StackOverflow, I found an answer.  I've tried to replace my steps to give credit where it is due.
+On StackOverflow, I found an answer. Or, so I thought.
     
 No luck.
     
